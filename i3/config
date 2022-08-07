@@ -474,7 +474,7 @@ exec --no-startup-id ~/.frp/frpc -c ~/.frp/frpc.ini
 # sound
 # exec --no-startup-id pasystray
 exec --no-startup-id volumeicon
-# clash
+# clash-for-windows
 exec --no-startup-id cfw
 # safeeyes
 exec --no-startup-id safeeyes
@@ -487,11 +487,11 @@ exec --no-startup-id nutstore
 #variety
 exec --no-startup-id variety
 #feh
-exec_always --no-startup-id feh --bg-scale /usr/share/backgrounds/arcolinux/mystery-3840x2160.jpg -m fill
+exec_always --no-startup-id feh --bg-scale /usr/share/backgrounds/arcolinux/mystery-3840x2160.jpg
 #music
 exec --no-startup-id netease-cloud-music
 #dingtalk
-exec --no-startup-id  dingtalk
+# exec --no-startup-id  dingtalk
 # output
 exec_always --no-startup-id  xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x2160 --rotate normal --output DP-1 --off --output HDMI-1 --off --output DP-2 --off --output HDMI-2 --off --output DP-3 --mode 3840x2160 --pos 0x0 --rotate normal
 bindsym $mod+Shift+X exec --no-startup-id /usr/bin/dm-tool switch-to-greeter 
