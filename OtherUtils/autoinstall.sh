@@ -8,6 +8,9 @@ rofi \
 dmenu \
 catfish \
 ranger \
+kvantum \
+arc-kde \
+qt5ct \
 flameshot-git \
 pamac-aur \
 archlinux-logout-git \

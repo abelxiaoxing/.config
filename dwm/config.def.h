@@ -84,6 +84,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *filecmd[]  = { "thunar", NULL };
+static const char *filerofi[]  = { "rofi --show drun", NULL };
 static const char *calendar[]  = { "gsimplecal", NULL };
 static const char *taskmanager[]  = { "xfce4-taskmanager", NULL };
 static const char *flameshot[] = {"flameshot","gui",NULL};
@@ -97,6 +98,7 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = filecmd } },
+	{ MODKEY,                       XK_F12,    spawn,          {.v = filerofi } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = terminalcmd } },
 	{ MODKEY,                       XK_x,	   spawn,          {.v = logout } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
