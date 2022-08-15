@@ -9,7 +9,7 @@ dmenu \
 catfish \
 ranger \
 kvantum \
-arc-kde \
+arc-kde-git \
 qt5ct \
 flameshot-git \
 pamac-aur \
@@ -17,7 +17,7 @@ archlinux-logout-git \
 archlinux-logout-themes-git \
 sddm \
 pipewire \
-wayfire \
+aur/wayfire \
 waybar \
 swaybg \
 wofi \
@@ -64,8 +64,7 @@ wqy-bitmapfont \
 ttf-arphic-ukai \
 ttf-arphic-uming \
 opendesktop-fonts \
-noto-fonts-emoji \
-wps-office \
+wps-office-cn \
 wps-office-mui-zh-cn \
 ttf-wps-fonts \
 netease-cloud-music \
