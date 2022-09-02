@@ -48,6 +48,7 @@ fcitx5-im \
 fcitx5-chinese-addons \
 fcitx5-pinyin-zhwiki \
 fcitx5-material-color \
+nerd-fonts-source-code-pro \
 adobe-source-han-sans-cn-fonts \
 adobe-source-han-sans-tw-fonts \
 adobe-source-han-sans-hk-fonts \
@@ -57,12 +58,8 @@ adobe-source-han-serif-hk-fonts \
 noto-fonts-sc \
 noto-fonts-tc \
 ttf-jetbrains-mono \
-nerd-fonts-jetbrains-mono \
 wqy-microhei \
 wqy-zenhei \
-wqy-bitmapfont \
-ttf-arphic-ukai \
-ttf-arphic-uming \
 opendesktop-fonts \
 wps-office-cn \
 wps-office-mui-zh-cn \
