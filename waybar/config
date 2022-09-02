@@ -1,6 +1,6 @@
 {
 	"layer": "bottom",
-	"modules-left": ["custom/launcher","cpu","memory","custom/media","tray"],
+	"modules-left": ["custom/launcher","cpu","memory","network","custom/media","tray"],
 	"modules-center": ["wlr/taskbar"],
 	"modules-right": ["custom/updates","custom/wallpaper","backlight","pulseaudio","clock", "battery","custom/power"],
 	
@@ -33,6 +33,7 @@
 	"network": {
 		"tooltip": false,
 		"format-wifi": "  {essid}",
+    "on-click": "bash ~/.config/system_scripts/rofi-wifi-menu.sh",
 		"format-ethernet": ""
 	},
 	"backlight": {
@@ -95,8 +96,8 @@
     },
     "custom/updates":{
         "format": "{} Update(s)",
-        "exec": "checkupdates | wc -l",
-        "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
+        "exec": "~/.config/system_scripts/checkupdates | wc -l",
+        "exec-if": "[[ $(~/.config/system_scripts/checkupdates | wc -l) != 0 ]]",
         "interval": 15,
         "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' "
     },
