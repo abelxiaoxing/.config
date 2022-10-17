@@ -483,17 +483,17 @@ exec_always --no-startup-id fcitx5
 #redshift
 exec --no-startup-id redshiftgui
 #nutstore
-exec --no-startup-id nutstore
+#exec --no-startup-id nutstore
 #variety
 exec --no-startup-id variety
 #feh
-exec_always --no-startup-id feh --bg-scale /usr/share/backgrounds/arcolinux/mystery-3840x2160.jpg
+exec_always --no-startup-id feh --bg-scale ~/.config/river/backgrounds/awesome.png
 #music
-exec --no-startup-id netease-cloud-music
+#exec --no-startup-id netease-cloud-music
 #dingtalk
 # exec --no-startup-id  dingtalk
 # output
-exec_always --no-startup-id  xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x2160 --rotate normal --output DP-1 --off --output HDMI-1 --off --output DP-2 --off --output HDMI-2 --off --output DP-3 --mode 3840x2160 --pos 0x0 --rotate normal
+#exec_always --no-startup-id  xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x2160 --rotate normal --output DP-1 --off --output HDMI-1 --off --output DP-2 --off --output HDMI-2 --off --output DP-3 --mode 3840x2160 --pos 0x0 --rotate normal
 bindsym $mod+Shift+X exec --no-startup-id /usr/bin/dm-tool switch-to-greeter 
 bindsym $mod+Control+L exec --no-startup-id dm-tool lock 
 
