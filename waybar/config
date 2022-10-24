@@ -31,7 +31,7 @@
 		"num-tags": 6
     },
 	"network": {
-		"tooltip": false,
+		"tooltip": true,
 		"format-wifi": "  {essid}",
     "on-click": "bash ~/.config/system_scripts/rofi-wifi-menu.sh",
 		"format-ethernet": ""
