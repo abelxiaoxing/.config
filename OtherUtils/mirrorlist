@@ -7,7 +7,12 @@
 # From:       https://archlinux.org/mirrors/status/json/
 # Retrieved:  2022-07-29 06:41:40 UTC
 # Last Check: 2022-07-29 05:50:15 UTC
-
+# 清华大学
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
+## 163
+Server = http://mirrors.163.com/archlinux/$repo/os/$arch
+## aliyun
+Server = http://mirrors.aliyun.com/archlinux/$repo/os/$arch
 Server = https://mirror.funami.tech/arch/$repo/os/$arch
 Server = https://archlinux.mailtunnel.eu/$repo/os/$arch
 Server = https://phinau.de/arch/$repo/os/$arch
