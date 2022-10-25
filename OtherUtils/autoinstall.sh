@@ -32,6 +32,7 @@ yay -Sy \
 | feh \
 | i3lock-color \
 | i3-gaps \
+| polybar \
 | picom \
 | autotiling \
 | network-manager-applet \
