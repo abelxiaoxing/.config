@@ -56,14 +56,14 @@ fcitx5-chinese-addons \
 fcitx5-pinyin-zhwiki \
 fcitx5-material-color \
 fcitx5-nord \
-nerd-fonts-source-code-pro \
+#nerd-fonts-source-code-pro \
 adobe-source-han-sans-cn-fonts \
 adobe-source-han-sans-tw-fonts \
 adobe-source-han-sans-hk-fonts \
 adobe-source-han-serif-cn-fonts \
 adobe-source-han-serif-tw-fonts \
 adobe-source-han-serif-hk-fonts \
-#noto-fonts-sc \
+noto-fonts-sc \
 noto-fonts-tc \
 ttf-jetbrains-mono \
 wqy-microhei \
