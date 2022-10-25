@@ -9,6 +9,7 @@ yay -Sy \
 | catfish \
 | ranger \
 | qt5ct \
+| lxappearance \
 | flameshot-git \
 | pamac-aur \
 | zsh-syntax-highlighting \
