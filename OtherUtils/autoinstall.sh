@@ -26,6 +26,8 @@ yay -Sy \
 | bemenu \
 | wlogout \
 | xorg \
+| light \
+| acpilight \
 | thunar \
 | konsole \
 | dolphin \
