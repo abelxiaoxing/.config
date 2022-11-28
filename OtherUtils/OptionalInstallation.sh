@@ -1,12 +1,12 @@
 #!/bin/bash
 yay -S \
   neofetch \
-  arc-kde-git \
-  kvantum \
-  archlinux-logout-git \
-  archlinux-logout-themes-git \
-  sddm-config-editor-git \
-  archlinux-logout-themes-git \
+| arc-kde-git \
+| kvantum \
+| archlinux-logout-git \
+| archlinux-logout-themes-git \
+| sddm-config-editor-git \
+| archlinux-logout-themes-git \
 | sddm-config-editor-git \
 | nerd-fonts-source-code-pro \
 | adobe-source-han-sans-cn-fonts \

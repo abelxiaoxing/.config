@@ -1,6 +1,6 @@
 #!/bin/bash
 sh MirrorChange.sh
-yay -Sy \
+yay -S \
 | neovim \
 | htop \
 | polkit \
@@ -52,5 +52,6 @@ yay -Sy \
 | fcitx5-pinyin-zhwiki \
 | fcitx5-material-color \
 | fcitx5-nord \
+| nerd-fonts-jetbrains-mono \
 | firefox 
 sh OptionalInstallation.sh
